@@ -1,2 +1,2 @@
 # Test-SpringCloud-Config
-test spring cloud config center
+这是测试springcloud分布式配置中心的demo
