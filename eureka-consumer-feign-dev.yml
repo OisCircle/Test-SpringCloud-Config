@@ -9,3 +9,6 @@ management:
         include: refresh
 server:
   port: 1004
+feign:
+  hystrix:
+    enabled: true
