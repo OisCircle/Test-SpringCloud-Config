@@ -1,2 +1,11 @@
 dev-id: 123devvv
 dev-key: 123dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
